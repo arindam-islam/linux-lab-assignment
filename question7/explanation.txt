@@ -1,0 +1,14 @@
+chmod +x patterns.sh
+This command makes the word pattern classification script executable.
+
+./patterns.sh
+The script categorized words into vowels-only, consonants-only, and mixed categories.
+
+cat vowels.txt
+This command displayed words containing only vowels.
+
+cat consonants.txt
+This command displayed words containing only consonants.
+
+cat mixed.txt
+This command displayed mixed words starting with consonants.

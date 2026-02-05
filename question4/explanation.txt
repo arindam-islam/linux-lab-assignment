@@ -1,0 +1,11 @@
+chmod +x emailcleaner.sh
+This command makes the email cleaning script executable.
+
+./emailcleaner.sh
+The script extracted valid email addresses into valid.txt and invalid email addresses into invalid.txt.
+
+cat valid.txt
+This command displayed unique valid email addresses.
+
+cat invalid.txt
+This command displayed invalid email addresses.

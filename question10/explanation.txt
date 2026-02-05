@@ -1,0 +1,5 @@
+gcc signals.c -o signals
+This command compiled the signal handling program.
+
+./signals
+The parent process handled SIGTERM and SIGINT signals and exited gracefully.

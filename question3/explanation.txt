@@ -1,0 +1,8 @@
+chmod +x validate_results.sh
+This command makes the student result validation script executable.
+
+./validate_results.sh
+The script processed marks.txt and identified students who failed in exactly one subject and those who passed all subjects.
+
+cat marks.txt
+This command displayed the student marks data.

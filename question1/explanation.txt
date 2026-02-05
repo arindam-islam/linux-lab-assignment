@@ -1,0 +1,11 @@
+chmod +x analyze.sh
+This command makes the analyze.sh script executable.
+
+./analyze.sh sample.txt
+The script detected a file input and displayed the number of lines, words, and characters.
+
+./analyze.sh .
+The script detected a directory and displayed the total number of files and the number of .txt files.
+
+./analyze.sh
+The script displayed an error message because the argument count was invalid.

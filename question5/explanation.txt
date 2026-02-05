@@ -1,0 +1,8 @@
+chmod +x sync.sh
+This command makes the directory synchronization script executable.
+
+./sync.sh
+The script compared dirA and dirB, listing unique files and identifying files with different content.
+
+ls dirA dirB
+This command displayed directory contents for verification.

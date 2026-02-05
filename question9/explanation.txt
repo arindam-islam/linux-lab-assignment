@@ -1,0 +1,5 @@
+gcc zombie.c -o zombie
+This command compiled the zombie process prevention program.
+
+./zombie
+The program created and cleaned child processes using wait(), preventing zombies.

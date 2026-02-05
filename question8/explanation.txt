@@ -1,0 +1,8 @@
+chmod +x bg_move.sh
+This command makes the background move script executable.
+
+./bg_move.sh testdir
+The script moved files into a backup directory using background processes and displayed process IDs.
+
+wait
+This ensured all background file operations completed.

@@ -1,0 +1,8 @@
+chmod +x metrics.sh
+This command makes the metrics analysis script executable.
+
+./metrics.sh
+The script analyzed input.txt and displayed word length statistics and unique word count.
+
+cat input.txt
+This command displayed the input text used for analysis.

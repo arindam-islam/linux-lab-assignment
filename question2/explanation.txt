@@ -1,0 +1,8 @@
+chmod +x log_analyze.sh
+This command makes the log analysis script executable.
+
+./log_analyze.sh sample.log
+The script validated the log file, counted INFO, WARNING, and ERROR messages, and displayed the most recent ERROR entry.
+
+cat logsummary_<date>.txt
+This command displayed the generated log summary report.
